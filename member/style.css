@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+body {
+    margin: auto;
+  color: #222;
+  background-color:aliceblue
+}
+
+/* header
+------------------------------ */
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999; 
+}
+#header {
+  width: 100%;
+  background-color:turquoise
+}
+#header .wrapper {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+}
+
+#header p {
+  float: left;
+  margin: 22px 0 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+#header ul {
+  float: right;
+  margin: 28px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+#header ul li {
+  float: left;
+  margin-right: 40px;
+}
+#header ul li:last-child {
+  margin-right: 0;
+}
+
+#header a{
+  text-decoration-line:none ;
+  text-decoration-color: black;
+}
+body h2{
+  text-align: center;
+  margin:  0 auto;
+  font-size: 4vh;
+}
+body p{
+  text-align: center;
+  margin:  0 auto;
+  font-size: 2vh;
+}
+body h3{
+  text-align: center;
+  margin: 0 auto;
+  font-size:3vh;
+}
+body a{
+  text-align: center;
+  margin: 0 auto;
+  font-size:2vh;
+}
+a{
+  color: red;
+}
+
+@font-face {
+  font-family: "Kosugi Maru";
+  src: url("KosugiMaru-Regular.ttf") format("truetype");
+}
+* {
+  font-family: "Kosugi Maru","sans serif";
+  font-weight: 400;
+  font-style: normal;
+  margin:0; padding:0;
+}
+
+@keyframes GradietionAnimation { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+ .footer {
+   display: flex;
+   width: 100%;
+   height: 9vw;
+background-color:dimgray;
+ position: absolute;
+ bottom: 0;
+ }
+html,body{
+  height: 100%;
+}
+.box-015 {
+    position: relative;
+    height: 18vh;
+    width: 18vw;
+    margin: 1em auto;
+    padding: 1em 2.5em 1em 1.5em;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 20%);
+    background-color: #15474747;
+    color: #ffffff;
+
+}
+
+.box-015::before,
+.box-015::after {
+    position: absolute;
+    content: '';
+}
+
+.box-015::before {
+    top: -15px;
+    right: 10px;
+    height: 50px;
+    width: 15px;
+    border: 3px solid #999;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
+    transform: rotate(10deg);
+}
+
+.box-015::after {
+    top: 0;
+    width: 10px;
+    right: 20px;
+    border: solid 5px #474747;
+}
+.tommy{
+  margin-inline-end: auto;
+}
