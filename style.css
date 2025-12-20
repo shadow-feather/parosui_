@@ -49,3 +49,31 @@ a{
   text-decoration-line:none ;
   text-decoration-color: black;
 }
+body{
+  text-align: center;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Sawarabi+Mincho&display=swap');
+* {
+  font-family: "Kosugi Maru";
+  font-weight: 400;
+  font-style: normal;
+  margin:0; padding:0;
+}
+
+@keyframes GradietionAnimation { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+ .footer {
+   display: flex;
+   width: 100%;
+   height: 9vw;
+background-color:dimgray;
+ position: absolute;
+ bottom: 0;
+ }
