@@ -64,6 +64,11 @@ body h3{
   margin: 0 auto;
   font-size:3vh;
 }
+body a{
+  text-align: center;
+  margin: 0 auto;
+  font-size:2vh;
+}
 
 @font-face {
   font-family: "Kosugi Maru";
