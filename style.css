@@ -1,70 +1,40 @@
-.header-5 {
-  box-sizing: border-box;
+@charset "UTF-8";
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222;
+  background-color:aliceblue
+}
+
+/* header
+------------------------------ */
+#header {
+  width: 100%;
+  background-color:turquoise
+}
+#header .wrapper {
+  overflow: hidden;
+  margin: 0 auto;
   width: 100%;
 }
 
-.header-inner {
-  display: flex;
-  align-items: center;
-  max-width: 1024px;
-  height: 20vh;
-  padding: 0 0.8em;
-  margin: 0 auto;
-  font-size: 1.2em;
-}
-
-.header-nav-list {
-  display: inline-block;
-}
-
-.header-nav-item {
+#header p {
   float: left;
-  padding: 9vh;
-  font-size: 10vh;
-  font-weight: bold;
-  color: #ccc;
-  text-align: center;
-  list-style: none;
+  margin: 22px 0 0;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
-.header-nav-item a {
-  text-decoration: none;
+#header ul {
+  float: right;
+  margin: 28px 0;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
-
-.header-ham {
-  display: none;
+#header ul li {
+  float: left;
+  margin-right: 40px;
 }
-
-.menu2 {
-  width: 20px;
-  height: 3px;
-  margin: 4px 0;
+#header ul li:last-child {
   margin-right: 0;
-  background-color: #333;
-}
-
-.select {
-  color: #444;
-}
-
-.header-nav-item:hover {
-  background: #eee;
-}
-
-.logo img {
-  width: 70px;
-}
-
-@media screen and (max-width: 480px) {
-  .header-nav-list {
-    display: none;
-  }
-
-  .header-nav {
-    margin: 0 0 0 auto;
-  }
-
-  .header-ham {
-    display: block;
-  }
 }
