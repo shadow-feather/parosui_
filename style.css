@@ -49,9 +49,15 @@ header{
   text-decoration-line:none ;
   text-decoration-color: black;
 }
-body{
+body h2{
   text-align: center;
   margin:  0 auto;
+  font-size: 9vw
+}
+body p{
+  text-align: center;
+  margin:  0 auto;
+  font-size: 6vw
 }
 
 
