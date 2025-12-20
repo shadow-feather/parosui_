@@ -45,12 +45,13 @@ header{
   margin-right: 0;
 }
 
-a{
+#header a{
   text-decoration-line:none ;
   text-decoration-color: black;
 }
 body{
   text-align: center;
+  margin:  0 auto;
 }
 
 
