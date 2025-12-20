@@ -63,7 +63,7 @@ body p{
 
 @font-face {
   font-family: "Kosugi Maru";
-  src: url("KosugiMaru-Regular.ttf") format("Kosugi Maru");
+  src: url("KosugiMaru-Regular.ttf") format("truetype");
 }
 * {
   font-family: "Kosugi Maru","sans serif";
