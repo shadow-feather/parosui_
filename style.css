@@ -61,9 +61,10 @@ body p{
 }
 
 
-
-
-@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+@font-face {
+  font-family: "Kosugi Maru";
+  src: url("KosugiMaru-Regular.ttf") format("Kosugi Maru");
+}
 * {
   font-family: "Kosugi Maru","sans serif";
   font-weight: 400;
