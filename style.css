@@ -97,10 +97,13 @@ background-color:dimgray;
  position: absolute;
  bottom: 0;
  }
-
+html,body{
+  height: 100%;
+}
 .box-015 {
     position: relative;
-    max-width: 60vw;
+    min-height:100%;
+    height: auto;
     margin: 1em auto;
     padding: 1em 2.5em 1em 1.5em;
     border-radius: 3px;
