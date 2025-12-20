@@ -52,14 +52,18 @@ header{
 body h2{
   text-align: center;
   margin:  0 auto;
-  font-size: 2vh;
+  font-size: 4vh;
 }
 body p{
   text-align: center;
   margin:  0 auto;
-  font-size: 1vh;
+  font-size: 2vh;
 }
-
+body h3{
+  text-align: center;
+  margin: 0 auto;
+  font-size:3vh;
+}
 
 @font-face {
   font-family: "Kosugi Maru";
